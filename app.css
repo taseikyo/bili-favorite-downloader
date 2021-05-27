@@ -1,0 +1,106 @@
+* {
+    background-color: #fff;
+    font-family: 'Microsoft Yahei';
+}
+QWidget {
+    font-size: 15px;
+    border-radius: 4px;
+}
+QToolTip {
+    padding: 4px;
+    border: 1px solid #bababa;
+}
+QStatusBar {
+    font-size: 13px;
+}
+QStatusBar QPushButton {
+    background-color: none;
+    font-family: 'Segoe UI Symbol';
+    padding: 0 40px;
+    color: #333;
+}
+QStatusBar QPushButton:hover {
+    background-color: none;
+    color: #ff80ab;
+}
+QLineEdit {
+    padding: 4px 10px;
+    margin-right: 10px;
+    border: 2px solid #bababa;
+    font-size: 16px;
+    font-family: 'Segoe UI Symbol';
+    selection-background-color: #ff80ab;
+}
+QLineEdit:hover {
+    border-color: #808080;
+}
+QLineEdit:focus {
+    border-color: #ff80ab;
+}
+QMenu {
+    border: 1px solid #bababa;
+    padding: 5px;
+}
+QMenu::item {
+    padding: 3px 25px;
+    border-radius: 4px;
+}
+QMenu::item:selected {
+    color: #fff;
+    background-color: #ff80ab;
+}
+QPushButton {
+    width: 125px;
+    padding: 7px 0;
+    color: #fff;
+    border: none;
+    background-color: #ff80ab;
+}
+QPushButton:hover, QComboBox:hover {
+    background-color: #ff70a6;
+}
+QPushButton:pressed, QComboBox:pressed {
+    background-color: #fd649f;
+}
+QPushButton:disabled, QComboBox:disabled {
+    background-color: #ffe0ea;
+}
+QComboBox {
+    padding: 5.5px 30px 5.5px 45px;
+    color: #fff;
+    border: none;
+    background-color: #ff80ab;
+}
+QComboBox::drop-down {
+    border-radius: 0;
+}
+QComboBox:on {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+QComboBox QAbstractItemView {
+    border-radius: 0;
+    outline: 0;
+}
+QComboBox QAbstractItemView::item {
+    height: 33px;
+    padding-left: 42px;
+    background-color: #fff;
+}
+QComboBox QAbstractItemView::item:selected {
+    background-color: #ff80ab;
+}
+QProgressBar {
+    text-align: center;
+}
+QProgressBar::chunk {
+    background: #ff80ab;
+    border-radius: 4px;
+}
+QMessageBox QLabel {
+    font-size: 13px;
+}
+QMessageBox QPushButton {
+    width: 50px;
+    padding: 6px 25px;
+}
